@@ -36,11 +36,11 @@ client.on('ready', async () => {
     .setApplicationId('1068116734806069248')
     .setType('PLAYING')
     .setURL('https://www.twitch.tv/apparentlyjack_rl') 
-    .setState('Hey Nitro is here')
-    .setName('quaaxz')
-    .setDetails(`Nitro is now`)
+    .setState('𝐈𝐒 𝐓𝐎𝐃𝐎𝐑𝐎𝐊𝐈 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄?')
+    .setName('𝐓𝐎𝐃𝐎𝐑𝐎𝐊𝐈 𝐅𝐈𝐆𝐇𝐓𝐈𝐍𝐆 𝐇𝐈𝐒 𝐃𝐄𝐌𝐎𝐍')
+    .setDetails(`𝐆𝐎 𝐆𝐎 𝐓𝐎𝐃𝐎`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1041035673118965772/1270521845841657907/image_2.webp?ex=66b4012d&is=66b2afad&hm=c0fa475d23f70fc777bcea2e70d9682a9aedf2d565ae549e64552ac303361d2b&=&format=webp&width=696&height=379') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1068885516885426257/1266798397113761844/146754.gif?ex=66b798f1&is=66b64771&hm=7d07cfffafe7a8bcc51b14b69e1f0bc7b20d4aa6bf9f8f3601ad83597dbe0dcc&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Nitro') 
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1041035673118965772/1270522062095781990/checked.png?ex=66b40160&is=66b2afe0&hm=1413e3f740030479e77899e2e3bebeb05f97a80e7c0b828e6ec6e9012f86255d&=&format=webp&quality=lossless&width=768&height=768') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Small Text') 
@@ -48,7 +48,7 @@ client.on('ready', async () => {
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
-
+node-gyp 
 });
 
 const mySecret = process.env['TOKEN'];
