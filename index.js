@@ -44,7 +44,7 @@ client.on('ready', async () => {
     .setAssetsLargeText('Nitro') 
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1041035673118965772/1270522062095781990/checked.png?ex=66b40160&is=66b2afe0&hm=1413e3f740030479e77899e2e3bebeb05f97a80e7c0b828e6ec6e9012f86255d&=&format=webp&quality=lossless&width=768&height=768') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Small Text') 
-    .addButton('Google', 'https://google.com');
+    .addButton('すべてマイク', 'https://youtu.be/kY3ed62OYsk?si=cKH0WmLFJNRQt8fM');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
