@@ -33,7 +33,7 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1265825059692609587')
+    .setApplicationId('1068116734806069248')
     .setType('PLAYING')
     .setURL('https://www.twitch.tv/apparentlyjack_rl') 
     .setState('Hey Nitro is here')
@@ -47,7 +47,7 @@ client.on('ready', async () => {
     .addButton('Google', 'https://google.com');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
 });
 
