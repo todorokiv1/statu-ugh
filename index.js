@@ -33,7 +33,7 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1068116734806069248')
+    .setApplicationId('1176821982684266628')
     .setType('PLAYING')
     .setURL('https://www.twitch.tv/apparentlyjack_rl') 
     .setState('𝐈𝐒 𝐓𝐎𝐃𝐎𝐑𝐎𝐊𝐈 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄?')
@@ -47,7 +47,7 @@ client.on('ready', async () => {
     .addButton('すべてマイク', 'https://youtu.be/kY3ed62OYsk?si=cKH0WmLFJNRQt8fM');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
 node-gyp 
 });
 
